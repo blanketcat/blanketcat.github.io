@@ -1,0 +1,484 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Full-Stack Resume</title>
+	<link rel="stylesheet" type="text/css" href="css/lib/skeleton.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link href="https://fonts.googleapis.com/css2?family=Mulish" rel="stylesheet"> 
+	<script type="text/javascript" src='js/lib/p5.min.js'></script>
+</head>
+<body>
+	<!-- <div id='background-container'>
+	</div> -->
+	<div id='foreground-container'>
+		<header class='container'>
+			<div id='business-card' class='twelve columns dark-bg rounded-edges'>
+				<p id='name' class='title'>Gabriel Schroder</p>
+				<p class='light-bg job-title'>Full-Stack Developer</p>
+				<div id='contact-info'>
+					<p class=''>Local to: Portland, OR</p>
+					<p class=''>Phone: +1 (503) 467-9833</p>
+					<p class=''>Email: gabe.schroder@protonmail.com</p>
+				</div>
+			</div>
+			<!-- <div id='header-design' class='eight columns dark-bg rounded-edges' style='height: 280px;'></div>-->
+		</header>
+		<section class='container'>
+			<div id='intro' class='twelve columns dark-bg rounded-edges'>
+				<p class='title'>About Me</p>
+				<p class='light-bg'>Professionally</p>
+				<p class='content'>
+
+				I am a Full-Stack Developer with over six years of experience delivering prototypes, features, and fixes in demanding, deadline driven, startup and agency environments. I have a wide breadth of experience designing, building, deploying, and maintaining secure, scalable back-ends, as well as implementing highly-functional user-interfaces from designs.
+
+				Over the years, I have cultivated substantial experience expanding and refactoring legacy projects and MVPs, which has led me to embrace a holistic approach to development when building prototypes. I strive to always write clean, performant, readable code, using with a focus on inheritability even under difficult deadlines. I approach writing code to solve problems, and to be easily understood by the next developer to expand on my work.
+				
+
+				I approach the technical decisions I make, with the interests of my team, and the organization's overarching business objectives in mind.
+
+
+				I possess the proven ability to learn in motion, acquiring and applying complex new technical skills in accelerated timeframes.
+
+				Outside of implementation, having done my fair share of consulting, I have accumulated deep experience with planning processes. I have grown to genuinely enjoy the process of gathering requirements, working with project stakeholders and contributors from all departments to turn those requirements into technical specifications, and parceling those specifications into tasks. As much as I love putting my head down and closing a stack of tickets, I can see the forest for the trees, and am extremely comfortable navigating this aspect of the work.
+
+				</p>
+				<p class='light-bg'>Personally</p>
+				<p class='content'>When I'm not building software, I'm probably reading the news, playing classical piano rather poorly, rock-climbing with my wife, watching... juuust, maybe, a little too much TV, leveling up my culinary skills, or researching the viability of an idea for a startup.</p>
+			</div>
+		</section>
+
+		<section class='container'>
+			<div id='intro' class='twelve columns dark-bg rounded-edges'>
+				<p class='title'>Experience</p>
+
+				<div class='row light-bg'>
+					<p class='role six columns job-title'>Back-End Developer / Architect</p>
+					<p class='date six columns'>May 2018 - Sep 2020</p>
+				</div>
+				<div class='row'>
+					<p class='mid-dark-bg'>Terminal Labs - Austin, TX</p>
+				</div>
+				<div class=''>
+					<ul class='experience-content'>
+						<li>Executed a diverse array of consulting, white-label, and audit engagements for agency, startup, and corporate clients in a range of sectors</li>
+						<li>Worked with a small team of Python and Linux DevOps domain experts to architect and implement solutions for clients</li>
+					</ul>
+					<p class='mid-dark-bg'>Highlights</p>
+					<ul class='experience-content'>
+						<!-- <li>Refactored Django and React web application for processing user data into product recommendations in real time</li> -->
+						<!-- <li>Reengineered multi-dimensional recommendation algorithm to produce outputs in line with business requirements</li> -->
+						<!-- <li>Built a prototype Vue.js application to demonstrate concept to </li> -->
+						
+						<li>Reengineered a recommendation algorithm to produce predictable outputs allowing leadership to drive sales by prioritizing products in results</li>
+						<li>Built a simple Vue.js application to demonstrate the viability of programming user survey results to executive leadership resulting directly in our client securing a contract extension to complete a finished version of project</li>
+						<li>Comprehensively documented an orphaned Django API and databases, and conducted onboarding for new engineers allowing executives to smoothly navigate a sudden unexpected personnel transition</li>
+						<li>Devised and implemented a JWT token encryption and refresh scheme to conceal user information and close user session in the event of a replay attack</li>
+						<li>Designed and implemented a unified authentication system for several discrete micro-service applications</li>
+						<li>Built authentication microservice API to bridge a React application and Django backend to AWS Congito with Flask with Boto3</li>
+						<li>Wrote Python utility library to encrypt, decrypt, parse, and validate the JSON Web Tokens passed from web application to an API</li>
+						<li>Developed lambda functions to parse Cognito output and direct information to multiple services</li>
+						<li>Worked with a group of product owners to establish requirements for a complex multi-tiered RBAC scheme</li>
+						<li>Worked on an emergency migration of an agtech company's infrastructure to a Kubernetes deployment on AWS when Dockerhub shut down</li>
+						<li>Set up infrastructure level monitoring for an AWS deployment using Grafana on Prometheus</li>
+						<li>Set up an OpenVPN portal service on AWS for a group of developers</li>
+						<li>Wrote a CLI tool to simplify adding and removing users from company's AWS VPN for management</li>
+					</ul>
+				</div>
+				<div class='row'>
+					<p class='mid-dark-bg'>Technologies</p>
+					<div class='row skills-row'>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>Python</li>
+								<li>Bash</li>
+								<li>Node</li>
+								<li>Flask</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>Django</li>
+								<li>React</li>
+								<li>Vue</li>
+								<li>Elasticsearch</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>MySQL</li>
+								<li>PostgreSQL</li>
+								<li>Linux</li>
+								<li>AWS</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>Docker</li>
+								<li>Docker Compose</li>
+								<li>LXC</li>
+								<li>Kubernetes</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>SaltStack</li>
+								<li>Terraform</li>
+								<li>Nginx</li>
+								<li>Apache</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<div class='row light-bg'>
+					<p class='role six columns job-title'>Day-Trader</p>
+					<p class='date six columns'>Jan 2018 - May 2018</p>
+				</div>
+
+				<div class='row'>
+					<p class='mid-dark-bg'>Self-Employed - Austin, TX</p>
+				</div>
+
+				<div>
+					<ul class='experience-content'>
+						<li>Studied markets and traded securities</li>
+					</ul>
+					<p class='mid-dark-bg'>Highlights</p>
+					<ul class='experience-content'>
+						<li>Built a pipeline for storing and processing ticker data streams using Python, Kafka, Postgres, and Elasticsearch</li>
+						<li>Architected and implemented a set of microservices for processing market ticker data into indicators</li>
+						<li>Architected and implemented a service for executing trade actions based on data output from indicator services</li>
+						<li>Architected and implemented a system for modifying trade execution parameters and conditions based on results of trades</li>
+					</ul>	
+				</div>
+				<div class=''>
+					<p class='mid-dark-bg'>Technologies</p>
+					<div class='row skills-row'>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>Python</li>
+								<li>Bash</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>Flask</li>
+								<li>Nginx</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>Kafka</li>
+								<li>Linux</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>PostgreSQL</li>
+								<li>Elasticsearch</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>Oanda Stream API</li>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<div class='row light-bg'>
+					<p class='role twelve columns job-title'>Front-End / DevOps Engineer</p>
+					<p class='date six columns'>Jun 2017 - Jan 2018</p>
+				</div>
+				<div>
+					<p class='mid-dark-bg'>The Maven Network - Seattle, WA (Contract)</p>
+				</div>
+				<div>
+					<ul class='experience-content'>
+						<li>Worked with a mid-size team of front-end developers to execute UI/UX designs and fix bugs</li>
+						<li>Worked with DevOps team to solve problems and make infrastructure enhancements</li>
+					</ul>
+					<p class='mid-dark-bg'>Highlights</p>
+					<ul class='experience-content'>
+						<li>Led initiative to refactor existing monolithic React application into modular reuseable components</li>
+						<li>Worked with data scientists to build analytics dashboard for processing millions of user events per second</li>
+						<li>Configured and deployed services for a monitoring infrastructure to redeploy services or page an on-call DevOps engineer</li>
+						<li>Wrote single step development environment setup script for engineering team</li>
+					</ul>
+				</div>
+				<div class=''>
+					<p class='mid-dark-bg'>Technologies</p>
+					<div class='row skills-row'>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>Node</li>
+								<li>React</li>
+								<li>C#</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>Linux</li>
+								<li>Elasticsearch</li>
+								<li>Zookeeper</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>AWS</li>
+								<li>Nginx</li>
+								<li>Kafka</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>Kubernetes</li>
+								<li>Docker</li>
+								<li>Docker-Compose</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>Ansible</li>
+								<li>Nagios</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class='row light-bg'>
+					<p class='role six columns job-title'>Lead Developer</p>
+					<p class='date six columns'>Mar 2016 - Jun 2017</p>
+				</div>
+				<div>
+					<p class='mid-dark-bg'>Optable - Venice, CA</p>
+				</div>
+				<div>
+					<ul class='experience-content'>
+						<li>Worked with founder as sole engineer to bootstrap product</li>
+					</ul>
+					<p class='mid-dark-bg'>Highlights</p>
+					<ul class='experience-content'>
+						<li>Finished and launched MVP</li>
+						<li>Wrote a Flask application to process requests from the front-end with Stripe payment and ACH APIs</li>
+						<li>Participated extensively in brainstorming sessions with founder to refine business model and presentations for investors</li>
+						<li>Wrote web-scraping/parsing programs for lead generation and asset acquisition</li>
+						<li>Set up source control and established development workflows conducive to expanding development team</li>
+						<li>Planned and implemented transition from Cloud9 IDE hosting to Ubuntu on Rackspace</li>
+						<li>Set up and secured development, staging, and production server environments</li>
+						<li>Worked with founder to analyze and redesign UI/UX to be more conducive to on-boarding end users and businesses</li>
+						<li>Wrote middleware to process and store user and business financial transaction data, integrating extensively with the Stripe API</li>
+						<li>Planned and implemented migration from SQLite to Postgres</li>
+						<li>Implemented financing calculations and integrated associated B2B transactions with Stripe API into application</li>
+						<li>Rewrote KnockoutJS front-end</li>
+					</ul>
+				</div>
+				<div class=''>
+					<p class='mid-dark-bg'>Technologies</p>
+					<div class='row skills-row'>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>Python</li>
+								<li>Flask</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>JavaScript</li>
+								<li>LESS</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>Docker</li>
+								<li>Linux</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>Stripe API</li>
+								<li>Nginx</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>Rackspace</li>
+								<li>Jenkins</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class='row light-bg'>
+					<p class='role six columns job-title'>Full-Stack Developer</p>
+					<p class='date six columns'>Dec 2015 - Mar 2016</p>
+				</div>
+				<div>
+					<p class='mid-dark-bg'>Waivecar - Santa Monica, CA (Contract)</p>
+				</div>
+				<div>
+					<ul class='experience-content'>
+						<li>Worked with CEO and Fleet Manager to test, identify, and fix web and mobile application bugs</li>
+						<li>Worked with Fleet Manager to configure and troubleshoot IOT devices for cars</li>
+					</ul>
+					<p class='mid-dark-bg'>Highlights</p>
+					<ul class='experience-content'>
+						<li>Built dashboard to monitor location of cars and optimize fleet operations</li>
+						<li>Developed process and wrote Python library for parsing data from CAN Bus and matching signals to car actions</li>
+					</ul>
+				</div>
+				<div class=''>
+					<p class='mid-dark-bg'>Technologies</p>
+					<div class='row skills-row'>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>Node</li>
+								<li>Python</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>Angular</li>
+								<li>React</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>SASS</li>
+								<li>Gulp</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>Ionic</li>
+								<li>Cordova</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				
+				<div class='row light-bg'>
+					<p class='role six columns job-title'>Freelance Web Developer</p>
+					<p class='date six columns'>Jun 2015 - Dec 2015</p>
+				</div>
+				<div>
+					<p class='mid-dark-bg'>Knotech - Portland, OR</p>
+				</div>
+				<div>
+					<ul class='experience-content'>
+						<li>Designed and built websites for a number of clients</li>
+					</ul>
+					<p class='mid-dark-bg'>Highlights</p>
+					<ul class='experience-content'>
+						<li>Designed and built a product inventory management system for a wholesaler</li>
+					</ul>
+				</div>
+				<div class=''>
+					<p class='mid-dark-bg'>Technologies</p>
+					<div class='row skills-row'>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>Node</li>
+								<li>Express</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>LESS</li>
+								<li>SASS</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>Jade/Pug</li>
+								<li>KeystoneJS</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>MySQL</li>
+								<li>MongoDB</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<div class='row light-bg'>
+					<p class='role six columns job-title'>Front-End Web Developer</p>
+					<p class='date six columns'>Jan 2015 - Jul 2015</p>
+				</div>
+				<div>
+					<p class='mid-dark-bg'>CMD - Portland, OR (Contract)</p>
+				</div>
+				<div>
+					<ul class='experience-content'>
+						<li>Worked in a mid-size agile team to create and maintain web experiences for multiple clients</li>
+						<li>Built proof-of-concept features that were used for client demos and incorporated into larger projects</li>
+					</ul>
+					<p class='mid-dark-bg'>Highlights</p>
+					<ul class='experience-content'>
+						<li>Built proof of concept for responsive adaptation of existing site that was adopted as current site</li>
+						<li>Built proof of concept to demonstrate the possibility of movement from a paid third party tool to a made-in-house widget for a large client</li>
+						<li>Built an interactive tablet application for a trade show that was adopted for use in hardware stores nationwide</li>
+						<li>Added analytics from multiple vendors to several web applications</li>
+						<li>Converted all content strings in large site to function calls to accomodate multiple languages</li>
+					</ul>
+				</div>
+				<div class=''>
+					<p class='mid-dark-bg'>Technologies</p>
+					<div class='row skills-row'>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>PHP</li>
+								<li>Drupal</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>Joomla</li>
+								<li>Django</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>HTML5</li>
+								<li>CSS3</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>jQuery</li>
+								<li>Angular</li>
+							</ul>
+						</div>
+						<div class='two columns'>
+							<ul class='skills-content'>
+								<li>Linux</li>
+								<li>Apache</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+<!-- 		<section class='container'>
+			<div id='intro' class='twelve columns dark-bg rounded-edges'>
+				<p class='content' style='text-align: center;'>References available upon request</p>
+			</div>
+		</section> -->
+
+	</div>
+
+	<!-- <script type="text/javascript" src='js/sketches/multi_test.js'></script>
+	<script type="text/javascript" src='js/sketches/background.js'></script> -->
+	<script type="text/javascript">
+		console.log('***#*****#*************');
+		console.log('**###****##************');
+		console.log('**#**#***##************');
+	</script>
+</body>
+</html>

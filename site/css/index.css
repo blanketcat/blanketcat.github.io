@@ -1,0 +1,130 @@
+/*
+	Color Scheme:
+		background: ECE7E3;
+		main color: 2B2522;
+		highlights: 91796E;
+*/
+
+html, body {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	/*background-color: #121212;*/
+	background-color: rgba(0, 0, 0, 0.05);
+	color: rgba(12, 12, 12, 1);
+	font-family: "Mulish", sans-serif;
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+	padding-left: 25px;
+	font-size: 25px;
+}
+
+#background-container {
+	/*position: fixed;*/
+	width: 100%;
+	height: 100%;
+	/*z-index: -1;*/
+}
+
+#foreground-container {
+	/*position: absolute;*/
+	width: 100%;
+	height: 100%;
+}
+
+#business-card {
+	/*margin-top: 25px;
+	margin-left: 25px;*/
+	/*padding-bottom: 25px;*/
+}
+
+#contact-info {
+	/*padding-top: 12px;*/
+}
+
+.content {
+	padding-left: 125px;
+	padding-right: 125px;
+}
+
+.title {
+	font-family: 'Mulish', sans-serif;
+	font-size: 2.5em;
+}
+
+.lead {
+	font-family: 'Mulish', sans-serif;
+	/*color: rgba(239,239,239, 1);*/
+	font-size: 50px;
+}
+
+.role {
+	width: 50% !important;
+	/*width: 50%;*/
+	padding-left: 25px;
+	font-weight: 550;
+}
+
+.date {
+	width: 50% !important;
+	margin-left: 0px;
+	padding-right: 25px;
+	text-align: right;
+}
+
+.job-title {
+	/*color: #000;*/
+	font-weight: 400;
+	text-shadow: -0px -0px 1px rgba(0,0,0,1);
+}
+
+.experience-content {
+	list-style: none;
+	/*padding-top: 22px;*/
+	padding-left: 125px;
+	margin-bottom: 4px;
+}
+
+.skills-content {
+	list-style: none;
+	/*padding-top: 22px;*/
+	padding-left: 25px;
+	margin-bottom: 4px;
+}
+
+.skills-row {
+	padding-left: 100px;
+}
+
+li {
+	font-size: 25px;
+	margin-bottom: 0px;
+}
+
+/*.shadowed-text {
+	text-shadow: -2px -2px 2px rgba(16,16,16,0.667);
+	box-shadow: -5px rgba(0,0,0,1);
+}*/
+
+.light-bg {
+	background-color: rgba(0,0,0,0.1);
+	/*font-weight: 700;*/
+}
+
+.dark-bg {
+	background-color: rgba(255,255,255,0.93);
+}
+
+.mid-dark-bg {
+	background-color: rgba(0,0,0,0.25);
+}
+
+.rounded-edges {
+	border-radius: 12px;
+	padding-bottom: 10px;
+}
+
